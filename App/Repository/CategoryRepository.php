@@ -34,6 +34,7 @@ class CategoryRepository
             echo $e->getMessage();
         }
     }
+    
     //Afficher une category (par son id)
     public function findAllCategoryById(int $id): array
     {
